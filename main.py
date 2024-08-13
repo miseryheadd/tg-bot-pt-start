@@ -7,7 +7,8 @@ from pathlib import Path
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, ConversationHandler
 
-dotenv_path = Path('C:\\Users\\qy\\Desktop\\code\\py\\tg bot\\token.env')
+# your path to .env file
+dotenv_path = Path('')
 load_dotenv(dotenv_path=dotenv_path)
 TOKEN = os.getenv('TOKEN')
 
